@@ -1,0 +1,73 @@
+
+
+/* Navbar Container */
+.navbar {
+    position: fixed;  /* Sticks navbar to the top */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ensures it spans the full width */
+    background-color: #1c1b1b;
+    padding: 15px 30px;
+    z-index: 1000; /* Ensures navbar stays above other content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-sizing: border-box; /* Prevents unwanted horizontal scroll */
+  }
+  
+
+   /* Logo Styling */
+.nav-logo {
+    font-size: 42px;
+    font-weight: bold;
+    color: #7ad03a;
+    opacity: 70%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 2%;
+
+  }
+  
+.logo_subtext{
+    margin-left: 70px;
+    font-size: 16px;
+    color: white;
+    opacity: 50%;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+ 
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-right: 5%;
+
+  }
+  
+  .nav-links li {
+    display: inline;
+
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-family:'JosefinSans-Regular';
+    color: white;
+    opacity: 70%;
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+  
+  /* Hover Effect */
+  .nav-links a:hover {
+    transform: scale(6.2);
+  }
+  
+  /* Active Link */
+  .active {
+    border-bottom: 2px solid #e8e6e2;
+    padding: 5px;
+  }
