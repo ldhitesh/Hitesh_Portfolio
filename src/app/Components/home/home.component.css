@@ -2,9 +2,11 @@
 
 .intro-container{
     display: block;
-    padding-left: 8%;
     padding-top:12%;
-    color: rgb(206, 194, 194);
+    color: black;
+    padding-bottom: 11%;
+    background-color: #b7c9db;
+
 }
 
 .iknowtextsingletext {
@@ -23,7 +25,8 @@
 .who-am-i{
     font-size: 78px;
     font-family: 'Josefin Sans', sans-serif;
-    opacity: 70%;
+    opacity: 80%;
+    color: black;
 }
 
 .introduction{
@@ -32,8 +35,21 @@
     width: 700px;
     line-height: 1.3; /* Adjust this value to increase/decrease spacing */
     text-align: left;
-    opacity: 60%;
+    opacity: 70%;
 
+}
+
+.intro-with-dp{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6%;
+}
+
+.container img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-top: -15%;
 }
   
   /* Fade out */

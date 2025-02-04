@@ -1,0 +1,16 @@
+<section class="projects-section">
+    <div class="heading">Sketches</div>
+    
+    <div class="projects-container">
+      <div class="project-card" *ngFor="let sketch of sketches.slice(0, visibleSketches)">
+        <img [src]="sketch" >
+      </div>
+      
+    </div>
+  
+    <button *ngIf="visibleSketches < sketches.length" (click)="loadMore()" class="load-more-btn">
+      Load More
+    </button>
+  </section>
+  
+  

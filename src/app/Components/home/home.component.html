@@ -2,22 +2,37 @@
 
 <div class="container">
     <div class="intro-container">
-        <div class="who-am-i">
-            Hi, I am Hitesh. 
-        </div>
-        <div>
-            <div class="iknowtextsingletext" [class.fade-out]="isAnimating" [class.fade-in-left]="!isAnimating">
-                {{ IKnowTextSingleText }}
-            </div>
-        </div>
+        <div class="intro-with-dp">
 
-        <div class="introduction">
-            <p>
-                I am a full-stack developer skilled in frontend and backend technologies, including Python, ASP.NET Core, C#, Angular (2-11), JavaScript, Node.js, and more. I build responsive, user-friendly web applications while following best practices. With AWS & Azure DevOps expertise, I design secure, scalable cloud solutions leveraging automation.             </p>
-        </div>
-    </div>
+            <div>
+                <div class="who-am-i">
+                    Hi, I am Hitesh. 
+                </div>
+                <div>
+                    <div class="iknowtextsingletext" [class.fade-out]="isAnimating" [class.fade-in-left]="!isAnimating">
+                        {{ IKnowTextSingleText }}
+                    </div>
+                </div>
     
+                <div class="introduction">
+                    <p>
+                        I am a full-stack developer skilled in frontend and backend technologies, including Python, ASP.NET Core, C#, Angular (2-11), JavaScript, Node.js, and more. I build responsive, user-friendly web applications while following best practices. With AWS & Azure DevOps expertise, I design secure, scalable cloud solutions leveraging automation.             </p>
+                </div>
+            </div>
+            
+
+            <div>
+                <img  src="assets/Profile_pic.jpg" alt="">
+            </div>
+        
+        </div>
+    
+        
+    </div>
+
 </div>
+
+
 
 <router-outlet></router-outlet>
 

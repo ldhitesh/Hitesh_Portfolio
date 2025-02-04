@@ -11,6 +11,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { PaintingsComponent } from './components/paintings/paintings.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     GalleryComponent,
     PortfolioComponent,
     BlogComponent,
-    NavbarComponent
+    NavbarComponent,
+    PaintingsComponent
   ],
   imports: [
     BrowserModule,
