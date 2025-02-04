@@ -47,14 +47,16 @@
 .more{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    transition: transform 0.3s ease-in;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center; 
+    opacity: 80%;
     padding-left: 7%;
 }
 
 .more:hover {
-    text-decoration: underline;
-    color: black;
     cursor: pointer;
+    transform:scaleX(1.2);
 }
 
 

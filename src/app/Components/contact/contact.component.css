@@ -1,0 +1,155 @@
+.contactform{
+    display:block;
+    text-align: center;
+}
+.contact-items{
+    display:block;
+    text-align: center;
+    margin: 3%;
+  }
+
+  ::placeholder{
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+  }
+
+  .contact-label{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .contact-desc{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .contact-btn{
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 40px;
+    background-color: rgb(39, 39, 40);
+    border: none;
+    color:white;
+  }
+
+  @media screen and (max-width: 850px) {
+
+    .contact-label{
+        font-size: 20px;
+        margin-bottom: 0%;
+      }
+    
+      .contact-desc{
+        font-size: 10px;
+      }
+    
+      .contact-btn{
+        height: 30px;
+        font-size: x-small;
+      }
+  }
+
+
+/* ...................................contact modal....................................... */
+
+
+/* Form container styling */
+.loginform {
+    width: 400px;
+    max-width: 500px;
+    height: 360px;
+    margin: 100px auto; /* Center form vertically and horizontally */
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+/* Title styling */
+h2 {
+    padding-top: 5%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #0f0f0f;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Input wrapper to position icon */
+.input-wrapper {
+    position: relative;
+    justify-content: space-between;
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0f0f0f;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input fields styling */
+input.form-control {
+    width: 350px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #0f0f0f;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px; /* Space between input fields */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+
+/* Input fields on focus */
+input.form-control:focus {
+    border-color: #050506;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(56, 56, 56, 0.2); /* Light blue glow effect */
+}
+
+/* Icon styling inside input fields */
+.input-wrapper i {
+    position: absolute;
+    top: 50%;
+    left: 16px; /* Adjusted space from the left */
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #bbb;
+}
+
+/* Submit button styling */
+button.btn-primary {
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #262728;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send-btn{
+    padding-bottom: 5%;
+}
+
+/* Hover effect for the submit button */
+button.btn-primary:hover {
+    background-color: #131313;
+}
+
+textarea:focus{
+    box-shadow: 0 0 5px rgba(56, 56, 56, 0.2); /* Light blue glow effect */
+    border-color: #050506;
+
+}
+
+
+

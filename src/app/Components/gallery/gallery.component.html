@@ -8,9 +8,9 @@
       
     </div>
   
-    <button *ngIf="visiblePhotos < photos.length" (click)="loadMore()" class="load-more-btn">
+    <div *ngIf="visiblePhotos < photos.length" (click)="loadMore()" class="load-more-btn">
         More Photos
-    </button>
+    </div>
   </section>
   
   

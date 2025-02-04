@@ -6,8 +6,8 @@
     top: 0;
     left: 0;
     width: 100vw; /* Ensures it spans the full width */
-    background-color: #181717;
-    padding: 15px 30px;
+    background-color: #1e1f20;
+    padding: 0px 30px 10px 0px;
     z-index: 1000; /* Ensures navbar stays above other content */
     display: flex;
     justify-content: space-between;
@@ -22,21 +22,17 @@
     font-size: 52px;
     font-weight: bold;
     color: #ecf0ea;
-    opacity: 70%;
     font-family: 'Josefin Sans', sans-serif;
     padding-top: 10%;
     padding-left: 10%;
-    padding-bottom: 2%;
-
   }
   
 .logo_subtext{
     margin-left: 120px;
     font-size: 18px;
     color: white;
-    opacity: 80%;
     font-family: 'Josefin Sans', sans-serif;
-
+    margin-top: -5%;
   }
  
   /* Navigation Links */
@@ -50,14 +46,13 @@
   
   .nav-links li {
     display: inline;
-
+    margin-top: 10%;
   }
   
   .nav-links a {
     text-decoration: none;
     font-family:'JosefinSans-Regular';
-    color: white;
-    opacity: 70%;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 

@@ -1,5 +1,7 @@
 <section class="projects-section">
     
+    <div class="heading">Projects</div>
+
     <div class="projects-container">
       <div class="project-card" *ngFor="let project of projects.slice(0, visibleProjects)">
         <img [src]="project.image" alt="{{ project.name }}">
@@ -13,9 +15,9 @@
       
     </div>
   
-    <button *ngIf="visibleProjects < projects.length" (click)="MoreDetails()" class="load-more-btn">
+    <div *ngIf="visibleProjects < projects.length" (click)="MoreDetails()" class="load-more-btn">
         More Details
-    </button>
+    </div>
   </section>
   
   

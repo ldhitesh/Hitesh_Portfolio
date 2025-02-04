@@ -1,1 +1,73 @@
-<p>contact works!</p>
+<div class="contact-items">
+    <p class="contact-label">Contact Me</p>
+    <p class="contact-desc">Do you have any questions or just want to say hi ?</p>
+    <button class="contact-btn" (click)="openScrollableContent(contact_comp)"> Say Hello !</button>
+</div>
+
+
+<ng-template class="border-0" #contact_comp let-modal>
+    <form #loginform="ngForm">
+            <div class="contactform">
+                <div class="loginform">
+                    <h2>Contact Me</h2> 
+                    <div class="row mb-6">
+                        <div >
+                            <div class="input-wrapper">
+                                <input  type="text" 
+                                        name="fullname" 
+                                        [(ngModel)]="messageDetails.fullname" 
+                                        class="form-control" 
+                                        id="fullname" 
+                                        placeholder="Enter your fullname">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <div >
+                            <div class="input-wrapper">
+                                <input  type="text" 
+                                        name="emailid" 
+                                        [(ngModel)]="messageDetails.emailid" 
+                                        class="form-control" 
+                                        id="emailid" 
+                                        placeholder="Enter your emailid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <div >
+                            <div class="input-wrapper">
+                                <input  type="text" 
+                                        name="subject" 
+                                        [(ngModel)]="messageDetails.subject" 
+                                        class="form-control" 
+                                        id="subject" 
+                                        placeholder="Subject">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-6">
+                        <div >
+                            <div class="input-wrapper">
+                                <textarea  type="message" 
+                                    class="form-control" 
+                                    id="body"
+                                    name="message"
+                                    rows="5"
+                                    cols="32"
+                                    placeholder="Message"
+                                    [(ngModel)]="messageDetails.message">
+                                </textarea>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                  
+                <div class="send-btn">
+                    <button type="submit" (click)="Send(loginform)" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+    </form>
+    
+</ng-template > 
