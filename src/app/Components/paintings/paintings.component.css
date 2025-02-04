@@ -4,11 +4,11 @@
   }
   
   .heading {
-    font-size: 72px;
+    font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
-    padding: 5%;
     opacity: 80%;
     color: black;
+    padding-top: 5%;
   }
   
   .projects-container {
@@ -28,7 +28,7 @@
   
   .project-card img {
 
-    padding: 5%;
+    padding: 8%;
     margin: 2%;
     text-align: center;
     transition: transform 0.3s ease-in-out;
@@ -43,19 +43,19 @@
 
   
   .load-more-btn {
-    margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #20704b;
+    background-color: #595c5b;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     transition: background 0.3s;
+    opacity: 50%;
   }
   
   .load-more-btn:hover {
-    background-color: #10482e;
+    background-color: #181a19;
   }
   
   

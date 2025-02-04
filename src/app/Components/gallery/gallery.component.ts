@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class GalleryComponent {
 
+
+  visiblePhotos = 3; // Initial sketches to display
+
+  photos = [
+    'assets/pic4.png',    
+    'assets/pic5.png',    
+    'assets/pic6.png',    
+    'assets/pic7.JPG',    
+  ];
+
+
+  loadMore() {
+    if (this.visiblePhotos < this.photos.length) {
+      this.visiblePhotos += 3; // Load 3 more projects each time
+    }
+  
+  }
 }

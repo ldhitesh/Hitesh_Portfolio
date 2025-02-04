@@ -1,0 +1,143 @@
+
+
+.footer-grid{
+    display: block;
+    background-color: #1e1f20;
+    color: white;
+    bottom: 0;
+    width: 100vw;
+    padding: 2%;
+  }
+.footer-grid{
+  text-align: center;
+}
+.footer-grid p{
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 70%;
+}
+
+#footer-caption{
+  font-size: medium;
+  opacity: 70%;
+}
+.footer-grid a{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  opacity: 70%;
+}
+
+
+.footer-icons{
+  width: 30px; 
+  height: 30px; 
+  object-fit: cover;
+  margin-right: 1%;
+  opacity: 60%;
+
+}
+
+.icons-grid{
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+
+
+.img-size{
+height: 200px;
+width: 200px;
+}
+
+.footer-image-grid{
+  display: block;
+  align-items: center;
+  margin: 1%;
+  opacity: 80%;
+}
+.img-grid{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  opacity: 70%;
+}
+
+.carousel-transition{
+  transition: transform 3s ease-out , opacity 1s ease;
+}
+
+/* ----------------------------------ipad width----------------------------- */
+
+@media screen and (max-width: 1000px) {
+
+
+.footer-grid{
+  text-align: center;
+}
+.footer-grid p{
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 70%;
+  margin-bottom: -1%;
+}
+
+#footer-caption{
+  font-size: small;
+  opacity: 70%;
+}
+.footer-grid a{
+  font-size:small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  opacity: 70%;
+}
+
+
+.footer-icons{
+  width: 30px; 
+  height: 30px; 
+  object-fit: cover;
+  margin-bottom: 2%;
+  margin-right: 1%;
+  opacity: 60%;
+
+}
+
+.icons-grid{
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+
+
+  
+.img-size{
+  height: 150px;
+  width: 150px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .img-size{
+    height: 100px;
+    width: 100px;
+    }
+}
+
+@media screen and (max-width: 512px) {
+  .img-size{
+    height: 70px;
+    width: 70px;
+    }
+
+  .footer-icons{
+    width: 20px; 
+    height: 20px; 
+    object-fit: cover;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    opacity: 60%;
+  
+  }
+}

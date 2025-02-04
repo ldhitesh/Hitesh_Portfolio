@@ -21,6 +21,9 @@ export class PaintingsComponent {
     if (this.visibleSketches < this.sketches.length) {
       this.visibleSketches += 3; // Load 3 more projects each time
     }
-  
+  }
+
+  MoreSketches(){
+    
   }
 }

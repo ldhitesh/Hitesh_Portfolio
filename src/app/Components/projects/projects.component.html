@@ -1,5 +1,4 @@
 <section class="projects-section">
-    <div class="heading">My Projects</div>
     
     <div class="projects-container">
       <div class="project-card" *ngFor="let project of projects.slice(0, visibleProjects)">
@@ -14,8 +13,8 @@
       
     </div>
   
-    <button *ngIf="visibleProjects < projects.length" (click)="loadMore()" class="load-more-btn">
-      Load More
+    <button *ngIf="visibleProjects < projects.length" (click)="MoreDetails()" class="load-more-btn">
+        More Details
     </button>
   </section>
   

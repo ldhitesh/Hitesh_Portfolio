@@ -2,10 +2,10 @@
 
 .intro-container{
     display: block;
-    padding-top:12%;
+    padding-top:15%;
     color: black;
     padding-bottom: 11%;
-
+    
 }
 
 .iknowtextsingletext {
@@ -43,6 +43,22 @@
     justify-content: space-evenly;
     padding: 6%;
 }
+
+.more{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    transition: transform 0.3s ease-in;
+    padding-left: 7%;
+}
+
+.more:hover {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+
+
 
 .container img{
     width: 400px;
